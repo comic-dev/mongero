@@ -6,6 +6,7 @@
   },
   "name": "mongero",
   "type": "module",
+  "module": "src/index.ts",
   "scripts": {
     "test": "npx ts-node-dev src/index.ts"
   },
