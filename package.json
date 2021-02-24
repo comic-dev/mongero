@@ -5,6 +5,7 @@
     "yarn": "^1.22.10"
   },
   "name": "mongero",
+  "type": "module",
   "scripts": {
     "test": "npx ts-node-dev src/index.ts"
   },
