@@ -4,5 +4,7 @@
         "lib": ["ESNext"],
         "moduleResolution": "Node",
         "target": "ESNext",
-    }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
 }
