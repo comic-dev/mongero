@@ -1,7 +1,6 @@
-import {  SchemaType } from "mongoose";
 export interface SchemaData {
     name: string,
     data: {
-        [key: string]: SchemaType
+        [key: string]: StringConstructor | NumberConstructor | DateConstructor | Buffer | BooleanConstructor | ArrayConstructor | MapConstructor
     }
 }
