@@ -1,3 +1,4 @@
+import { Document } from "mongoose";
 import { Database } from "./Database";
 
 export class DocumentManager {

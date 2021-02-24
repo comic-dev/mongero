@@ -6,7 +6,7 @@ import { DocumentCreateData } from "../Interfaces/DocumentCreateData";
 export class Collection {
     //public documents: DocumentManager;
 
-    public model: Model<Document<any>>;
+    public model: Model<Document>;
 
     public data: SchemaData;
 

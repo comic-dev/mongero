@@ -2,17 +2,18 @@
   "dependencies": {
     "@types/mongoose": "^5.10.3",
     "mongoose": "^5.11.17",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.2",
     "yarn": "^1.22.10"
   },
   "name": "mongero",
-  "type": "module",
-  "module": "src/index.ts",
   "scripts": {
     "test": "npx ts-node-dev src/index.ts"
   },
   "version": "1.0.0",
   "description": "A MongoDB wrapper for NodeJS",
-  "main": "src/index.ts",
+  "main": "src/index",
   "repository": "https://github.com/comic-dev/mongero",
   "author": "comic-dev",
   "license": "MIT",

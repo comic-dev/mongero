@@ -1,8 +1,8 @@
-import { ObjectId } from "mongoose";
+import { Types } from "mongoose";
 import { Database } from "../Structures/Database";
 
 export interface DocumentData {
     Database: Database;
-    _id: ObjectId,
+    _id: Types.ObjectId,
     [key: string]: any
 }
